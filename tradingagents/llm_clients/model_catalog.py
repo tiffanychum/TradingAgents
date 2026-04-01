@@ -65,12 +65,25 @@ MODEL_OPTIONS: ProviderModeOptions = {
     },
     "openrouter": {
         "quick": [
+            ("Kimi K2.5 - $0.42/1M, #1 agentic+tool use", "moonshotai/kimi-k2.5"),
+            ("Kimi K2 0905 - $0.40/1M, strong agentic", "moonshotai/kimi-k2-0905"),
+            ("Qwen3 235B A22B - $0.22/1M, 235B MoEn", "qwen/qwen3-235b-a22b"),
+            ("Qwen 2.5 72B - $0.13/1M, reliable 72B", "qwen/qwen-2.5-72b-instruct"),
+            ("Qwen3.6 Plus Preview (free) - 1M ctx", "qwen/qwen3.6-plus-preview:free"),
+            ("NVIDIA Nemotron 120B (free)", "nvidia/nemotron-3-super-120b-a12b:free"),
             ("NVIDIA Nemotron 3 Nano 30B (free)", "nvidia/nemotron-3-nano-30b-a3b:free"),
             ("Z.AI GLM 4.5 Air (free)", "z-ai/glm-4.5-air:free"),
         ],
         "deep": [
-            ("Z.AI GLM 4.5 Air (free)", "z-ai/glm-4.5-air:free"),
+            ("Kimi K2 Thinking - $0.47/1M, 1T MoE reasoning+tool", "moonshotai/kimi-k2-thinking"),
+            ("Kimi K2 - $0.57/1M, 1T MoE, SWE-bench 65.8%", "moonshotai/kimi-k2"),
+            ("DeepSeek R1 - $0.70/1M, top reasoning, MMLU-Pro 84.9%", "deepseek/deepseek-r1"),
+            ("Qwen3 Max - $0.78/1M, top Qwen", "qwen/qwen3-max"),
+            ("Qwen3 235B A22B - $0.22/1M, 235B MoE", "qwen/qwen3-235b-a22b"),
+            ("Qwen3.6 Plus Preview (free) - 1M ctx", "qwen/qwen3.6-plus-preview:free"),
+            ("NVIDIA Nemotron 120B (free)", "nvidia/nemotron-3-super-120b-a12b:free"),
             ("NVIDIA Nemotron 3 Nano 30B (free)", "nvidia/nemotron-3-nano-30b-a3b:free"),
+            ("Z.AI GLM 4.5 Air (free)", "z-ai/glm-4.5-air:free"),
         ],
     },
     "ollama": {
